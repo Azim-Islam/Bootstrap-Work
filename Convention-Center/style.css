@@ -107,6 +107,8 @@
   }
   
 
+
+  
 .custom-brand-font{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -180,6 +182,15 @@
   line-height: 24px;
 }
 
+
+.carousel .carousel-indicators button {
+  border-radius: 5px;
+  width: 68px;
+  height: 5px;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
 @media screen and (max-width: 768px) {
   .custom-brand-font{
     font-family: 'Poppins', sans-serif;
@@ -205,5 +216,14 @@
   .custom-scale{
     scale: 0.74;
   }
+
+  .carousel .carousel-indicators button {
+    border-radius: 5px;
+    width: 24.77px;
+    height: 2.93px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+  }
+  
 
 }
