@@ -13,8 +13,313 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Convention Center</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid m-0 p-0">
+      <!-- TOP NAVBAR START -->
+      <nav class="navbar sticky-top navbar-expand-lg md-ms-5 md-me-5">
+        <div class="container-fluid md-ms-5 md-me-5 mt-3 mb-3">
+          <a class="navbar-brand custom-brand-font" href="#"
+            >Abacus Convention <br class="d-md-none" />Center</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="border-style: none"
+          >
+            <span
+              ><svg
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 19.5C6.82843 19.5 7.5 18.8284 7.5 18C7.5 17.1716 6.82843 16.5 6 16.5C5.17157 16.5 4.5 17.1716 4.5 18C4.5 18.8284 5.17157 19.5 6 19.5Z"
+                  fill="#3E3E3E"
+                />
+                <path
+                  d="M30.09 16.5H11.91C11.1313 16.5 10.5 17.1313 10.5 17.91V18.09C10.5 18.8687 11.1313 19.5 11.91 19.5H30.09C30.8687 19.5 31.5 18.8687 31.5 18.09V17.91C31.5 17.1313 30.8687 16.5 30.09 16.5Z"
+                  fill="#3E3E3E"
+                />
+                <path
+                  d="M30.09 24H5.91C5.13128 24 4.5 24.6313 4.5 25.41V25.59C4.5 26.3687 5.13128 27 5.91 27H30.09C30.8687 27 31.5 26.3687 31.5 25.59V25.41C31.5 24.6313 30.8687 24 30.09 24Z"
+                  fill="#3E3E3E"
+                />
+                <path
+                  d="M30.09 9H5.91C5.13128 9 4.5 9.63128 4.5 10.41V10.59C4.5 11.3687 5.13128 12 5.91 12H30.09C30.8687 12 31.5 11.3687 31.5 10.59V10.41C31.5 9.63128 30.8687 9 30.09 9Z"
+                  fill="#3E3E3E"
+                />
+              </svg>
+            </span>
+          </button>
+          <!-- NAVBAR ITEMS START -->
+          <div
+            class="collapse navbar-collapse custom-nav-item-font justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+          <!-- NAVBAR ITEMS END -->
+        </div>
+      </nav>
+      <!-- TOP NAVBAR END -->
+
+      <!-- CAROUSEL START  -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide custom-carousel-container"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators py-0">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="custom-carousal-img"></div>
+            <div class="carousel-caption p-0 mb-5 text-reset d-md-block">
+              <h5 class="custom-carousal-header-text mb-0">
+                The perfect venue for your next event
+              </h5>
+              <p
+                class="custom-carousal-header-text"
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  font-weight: 300;
+                  max-width: 456px;
+                  margin: 0 auto;
+                "
+              >
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                style="
+                  --bs-btn-font-weight: 700;
+                  --bs-btn-bg: white;
+                  --bs-btn-color: #3f87f5;
+                  --font-family: 'Poppins', sans-serif;
+                  --bs-btn-border-width: 0px;
+                  height: 44px;
+                  width: 168px;
+                "
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="custom-carousal-img"></div>
+            <div class="carousel-caption p-0 mb-4 text-reset d-md-block">
+              <h5 class="custom-carousal-header-text mb-0">
+                The perfect venue for your next event
+              </h5>
+              <p
+                class="custom-carousal-header-text"
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  font-weight: 300;
+                  max-width: 456px;
+                  margin: 0 auto;
+                "
+              >
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                style="
+                  --bs-btn-font-weight: 700;
+                  --bs-btn-bg: white;
+                  --bs-btn-color: #3f87f5;
+                  --font-family: 'Poppins', sans-serif;
+                  --bs-btn-border-width: 0px;
+                  height: 44px;
+                  width: 168px;
+                "
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="custom-carousal-img"></div>
+            <div class="carousel-caption p-0 mb-4 text-reset d-md-block">
+              <h5 class="custom-carousal-header-text mb-0">
+                The perfect venue for your next event
+              </h5>
+              <p
+                class="custom-carousal-header-text"
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  font-weight: 300;
+                  max-width: 456px;
+                  margin: 0 auto;
+                "
+              >
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                style="
+                  --bs-btn-font-weight: 700;
+                  --bs-btn-bg: white;
+                  --bs-btn-color: #3f87f5;
+                  --font-family: 'Poppins', sans-serif;
+                  --bs-btn-border-width: 0px;
+                  height: 44px;
+                  width: 168px;
+                "
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="custom-carousal-img"></div>
+            <div class="carousel-caption p-0 mb-4 text-reset d-md-block">
+              <h5 class="custom-carousal-header-text mb-0">
+                The perfect venue for your next event
+              </h5>
+              <p
+                class="custom-carousal-header-text"
+                style="
+                  font-size: 16px;
+                  line-height: 24px;
+                  font-weight: 300;
+                  max-width: 456px;
+                  margin: 0 auto;
+                "
+              >
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                style="
+                  --bs-btn-font-weight: 700;
+                  --bs-btn-bg: white;
+                  --bs-btn-color: #3f87f5;
+                  --font-family: 'Poppins', sans-serif;
+                  --bs-btn-border-width: 0px;
+                  height: 44px;
+                  width: 168px;
+                "
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="custom-scale" aria-hidden="true">
+            <svg
+              width="32"
+              height="54"
+              viewBox="0 0 32 54"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.4909 54L32 49.5947L8.87273 27L32 4.40526L27.4909 3.4205e-06L2.36041e-06 27L27.4909 54Z"
+                fill="#9B9B9B"
+              />
+            </svg>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="custom-scale" aria-hidden="true">
+            <svg
+              width="32"
+              height="54"
+              viewBox="0 0 32 54"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.50909 0L0 4.40526L23.1273 27L0 49.5947L4.50909 54L32 27L4.50909 0Z"
+                fill="#9B9B9B"
+              />
+            </svg>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- CAROUSEL END  -->
+    </div>
+  </body>
 </html>
