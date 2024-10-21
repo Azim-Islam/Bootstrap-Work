@@ -191,6 +191,12 @@
   border-bottom: 0px solid transparent;
 }
 
+
+.custom-card-1{
+  /* /* height: 387px; */
+  width: 232px
+}
+
 @media screen and (max-width: 768px) {
   .custom-brand-font{
     font-family: 'Poppins', sans-serif;
