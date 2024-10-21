@@ -194,7 +194,24 @@
 
 .custom-card-1{
   /* /* height: 387px; */
-  width: 232px
+  width: 232px;
+  height: 387px;
+}
+
+.custom-card-2{
+  height: 480px; 
+  width: 292px;
+  border-radius: 26px;
+  background-color: #3F87F5;
+  transform: translateY(-18%);
+}
+
+.custom-list-group-1{
+  background-color: transparent;
+}
+
+.custom-margin-top-1{
+  margin-top: 12rem;
 }
 
 @media screen and (max-width: 768px) {
