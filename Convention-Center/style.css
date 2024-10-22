@@ -195,7 +195,7 @@
 .custom-card-1{
   /* /* height: 387px; */
   width: 232px;
-  height: 387px;
+  height: 400px;
 }
 
 .custom-card-2{
@@ -211,7 +211,23 @@
 }
 
 .custom-margin-top-1{
-  margin-top: 12rem;
+  margin-top: 100px;
+}
+
+.custom-margin-top-2{
+  margin-top: 200px;
+}
+
+
+.custom-price-card-shadow{ 
+  box-shadow: 0px 42px 34px 0px #3F87F540;
+}
+
+.header-text-2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -249,4 +265,32 @@
   }
   
 
+}
+
+
+@media screen and (max-width: 1200px) {
+  .custom-card-2{
+    height: 480px; 
+    width: 292px;
+    border-radius: 26px;
+    background-color: #3F87F5;
+    transform: translateY(0%);
+  }
+
+  .header-text-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 28.5px;
+    font-weight: 600;
+  }
+
+  .custom-margin-top-1{
+    margin-top: 0px;
+  }
+  
+  .custom-margin-top-2{
+    margin-top: 40px;
+  }
+  
+  
 }
