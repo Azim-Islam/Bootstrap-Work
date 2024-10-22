@@ -214,6 +214,10 @@
   margin-top: 100px;
 }
 
+.custom-margin-top-3{
+  margin-top: 100px;
+}
+
 .custom-margin-top-2{
   margin-top: 200px;
 }
@@ -228,6 +232,67 @@
   font-size: 38px;
   line-height: 57px;
   font-weight: 600;
+}
+
+
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border-style: solid;
+  border-color: #D5E5FB;
+  border-width: 1px;
+  --bs-accordion-active-color: white;
+  --bs-accordion-focus-color: white;
+  --bs-accordion-btn-icon-width: 36px;
+  --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.9999 21.75C23.8025 21.7511 23.6068 21.7133 23.424 21.6387C23.2413 21.564 23.0751 21.454 22.9349 21.315L17.9999 16.35L13.0499 21.12C12.7689 21.3994 12.3887 21.5562 11.9924 21.5562C11.5961 21.5562 11.216 21.3994 10.9349 21.12C10.7943 20.9806 10.6827 20.8146 10.6066 20.6319C10.5304 20.4491 10.4912 20.253 10.4912 20.055C10.4912 19.857 10.5304 19.6609 10.6066 19.4781C10.6827 19.2953 10.7943 19.1294 10.9349 18.99L16.9349 13.2C17.2153 12.9252 17.5923 12.7712 17.9849 12.7712C18.3775 12.7712 18.7545 12.9252 19.0349 13.2L25.0349 19.2C25.1755 19.3394 25.2871 19.5053 25.3632 19.6881C25.4394 19.8709 25.4786 20.067 25.4786 20.265C25.4786 20.463 25.4394 20.6591 25.3632 20.8419C25.2871 21.0247 25.1755 21.1906 25.0349 21.33C24.7568 21.598 24.3861 21.7485 23.9999 21.75Z" fill="%23425F6A"/></svg>');
+  --bs-accordion-btn-icon: url('data:image/svg+xml,<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0001 14.25C12.1975 14.2489 12.3932 14.2867 12.576 14.3613C12.7587 14.436 12.9249 14.546 13.0651 14.685L18.0001 19.65L22.9501 14.88C23.2311 14.6006 23.6113 14.4438 24.0076 14.4438C24.4039 14.4438 24.784 14.6006 25.0651 14.88C25.2057 15.0194 25.3173 15.1854 25.3934 15.3681C25.4696 15.5509 25.5088 15.747 25.5088 15.945C25.5088 16.143 25.4696 16.3391 25.3934 16.5219C25.3173 16.7047 25.2057 16.8706 25.0651 17.01L19.0651 22.8C18.7847 23.0748 18.4077 23.2288 18.0151 23.2288C17.6225 23.2288 17.2455 23.0748 16.9651 22.8L10.9651 16.8C10.8245 16.6606 10.7129 16.4947 10.6368 16.3119C10.5606 16.1291 10.5214 15.933 10.5214 15.735C10.5214 15.537 10.5606 15.3409 10.6368 15.1581C10.7129 14.9753 10.8245 14.8094 10.9651 14.67C11.2432 14.402 11.6139 14.2515 12.0001 14.25Z" fill="%23425F6A"/></svg>');
+  &:not(:first-of-type) {
+    border-top: 1px solid  #D5E5FB !important;
+  }
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1;
+}
+
+.custom-accordation-item{
+  max-height: 220px;
+  max-width: 552px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+
+.accordation-button{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #383838;
+}
+
+.accordion-button:not(.collapsed) {
+  color:#383838;
+  background-color: white;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordation-body-text{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding-top: 0px;
+  color: #7E848C;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -268,6 +333,66 @@
 }
 
 
+.feedback-card{
+  width: 360px; 
+  height: 323px;
+  border-radius: 5px;
+  box-shadow: 0px 12px 30px 0px #00000021;
+}
+
+.feedback-card-paragraph{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #6C6C6C;
+  max-width: 252px;
+  max-height: 104px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.custom-feedback-card-h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #0C1920;
+  margin-bottom: 0px;
+}
+
+.custom-feedback-card-h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #747474;
+}
+
+.custom-pill {
+  top: -13.5px;
+  left: 230px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 900;
+  text-align: center;
+  text-justify:auto;
+  width: 46px;
+  height: 27px;
+  color: white;
+  border-radius: 13.5px;
+  background-color: #FF4E4E;
+}
+
+
+
 @media screen and (max-width: 1200px) {
   .custom-card-2{
     height: 480px; 
@@ -285,11 +410,15 @@
   }
 
   .custom-margin-top-1{
-    margin-top: 0px;
+    margin-top: 50px;
   }
   
   .custom-margin-top-2{
     margin-top: 40px;
+  }
+
+  .custom-margin-top-3{
+    margin-top: 28px;
   }
   
   
