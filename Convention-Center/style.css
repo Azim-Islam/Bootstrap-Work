@@ -395,7 +395,17 @@
 .custom-margin-top-5{
   margin-top: 190px;
 }
+
+.floating-notification {
+  top: 50px;
+  left: 70%;
+}
 @media screen and (max-width: 768px) {
+
+  .floating-notification {
+    top: -35px !important; 
+    left: 0px !important;
+  }
 
   .footer {
     background-color: #0B0D17;
@@ -441,6 +451,12 @@
 }
 
 @media screen and (max-width: 992px) {
+
+  .floating-notification {
+    top: 50px;
+    left: 20%;
+  }
+  
   .faq-img{
     height: 364px;
     width: 546px; 
@@ -458,6 +474,10 @@
 
 
 @media screen and (max-width: 1200px) {
+  .floating-notification {
+    top: 50px;
+    left: 20%;
+  }
   .custom-margin-top-5{
     margin-top: 50px;
   }
@@ -493,4 +513,11 @@
   }
   
   
+}
+
+@media screen and (max-width: 1550px) {
+  .floating-notification {
+    top: 50px;
+    left: 50%;
+  }
 }
