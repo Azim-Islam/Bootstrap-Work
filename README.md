@@ -1,4 +1,4 @@
-# Course Title 🎓
+# Udemy Bootstrap 5 Course 🎓
 
 Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contains multiple projects that demonstrate various concepts learned throughout the course.
 
