@@ -12,9 +12,9 @@ Welcome to the repository for [Udemy Bootstrap 5 Course]! This repository contai
 
 ---
 
-## Project 1: Project Title 🚀
+## Project 1: EMS2.0 Dashboard Project 🚀
 
-![Project 1 Screenshot](link_to_screenshot1.png)
+![Project 1 Screenshot]([link_to_screenshot1.png](https://i.ibb.co.com/6bZFnVf/image3.png))
 
 - **Live URL:** [View Project 1 Live](https://live-url-for-project-1.com)
 - **GitHub Repo:** [Project 1 Repository](https://github.com/yourusername/project1)
