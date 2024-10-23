@@ -222,6 +222,10 @@
   margin-top: 200px;
 }
 
+.custom-margin-top-4{
+  margin-top: 100px;
+}
+
 
 .custom-price-card-shadow{ 
   box-shadow: 0px 42px 34px 0px #3F87F540;
@@ -256,7 +260,7 @@
 }
 
 .custom-accordation-item{
-  max-height: 220px;
+  max-height: auto;
   max-width: 552px;
   border-radius: 5px;
   margin-bottom: 13px;
@@ -295,42 +299,6 @@
   
 }
 
-@media screen and (max-width: 768px) {
-  .custom-brand-font{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #3E3E3E;
-    line-height: 33px;
-    font-size: 14px;
-    line-height: 21px;
-    width: 143px;
-    height: 42px;
-  }
-  
-  .custom-carousal-header-text{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .custom-scale{
-    scale: 0.74;
-  }
-
-  .carousel .carousel-indicators button {
-    border-radius: 5px;
-    width: 24.77px;
-    height: 2.93px;
-    border-top: 0px solid transparent;
-    border-bottom: 0px solid transparent;
-  }
-  
-
-}
 
 
 .feedback-card{
@@ -391,9 +359,109 @@
   background-color: #FF4E4E;
 }
 
+.faq-img{
+  height: 364px;
+  width: 546px; 
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #0B0D17;
+  color: #D9DBE1;
+  height: 280px;
+  margin-top: 150px;
+}
+
+.get-the-app{
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #D9DBE1;
+
+}
+
+.copy-right{
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #D9DBE1;
+}
+
+
+.custom-margin-top-5{
+  margin-top: 190px;
+}
+@media screen and (max-width: 768px) {
+
+  .footer {
+    background-color: #0B0D17;
+    color: #D9DBE1;
+    height: 280px;
+    margin-top: 70px;
+  }
+  
+  .custom-brand-font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #3E3E3E;
+    line-height: 33px;
+    font-size: 14px;
+    line-height: 21px;
+    width: 143px;
+    height: 42px;
+  }
+  
+  .custom-carousal-header-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .custom-scale{
+    scale: 0.74;
+  }
+
+  .carousel .carousel-indicators button {
+    border-radius: 5px;
+    width: 24.77px;
+    height: 2.93px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+  }
+  
+
+}
+
+@media screen and (max-width: 992px) {
+  .faq-img{
+    height: 364px;
+    width: 546px; 
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .faq-img{
+    height: 301px;
+    width: 324px; 
+    border-radius: 5px;
+  }
+
+}
 
 
 @media screen and (max-width: 1200px) {
+  .custom-margin-top-5{
+    margin-top: 50px;
+  }
+
   .custom-card-2{
     height: 480px; 
     width: 292px;
@@ -409,7 +477,7 @@
     font-weight: 600;
   }
 
-  .custom-margin-top-1{
+  .custom-margin-top-1{ 
     margin-top: 50px;
   }
   
@@ -419,6 +487,9 @@
 
   .custom-margin-top-3{
     margin-top: 28px;
+  }
+  .custom-margin-top-4{
+    margin-top: 25px;
   }
   
   
