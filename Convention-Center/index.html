@@ -39,15 +39,16 @@
     />
 
     <title>Convention Center</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container-fluid m-0 p-0">
       <!-- TOP NAVBAR START -->
       <nav
-        class="navbar static navbar-expand-lg ms-2 me-1 ms-md-5 me-md-5 bg-white"
+        class="navbar static navbar-expand-lg navbar-margin"
       >
-        <div class="container-fluid ms-md-5 me-md-5 mt-3 mb-3">
+        <div class="container-fluid p-0">
           <a class="navbar-brand custom-brand-font" href="#"
             >Abacus Convention <br class="d-md-none" />Center</a
           >
@@ -368,7 +369,7 @@
             class="col-md-6 align-content-center order-0 order-md-1 position-relative"
           >
             <div class="container position-relative">
-              <div class="position-absolute floating-notification">
+              <div class="position-absolute floating-notification" id="toast" onclick="parentNode.remove()">
                 <svg
                   width="313"
                   height="104"
@@ -538,7 +539,7 @@
       <!-- HEADING 1 END -->
 
       <!-- PACKAGE START -->
-      <div class="container custom-margin-top-1">
+      <div class="container custom-margin-top-1" style="max-height: 440px;">
         <div class="row justify-content-center align-items-baseline">
           <div class="d-flex justify-content-center">
             <h1 class="header-text-2" style="color: #231d4f">Our Package</h1>
@@ -548,7 +549,7 @@
       <div class="container custom-margin-top-5">
         <div class="row justify-content-center mt-0">
           <div
-            class="col-xl-3 col-md-6 d-inline-flex justify-content-start ps-4 pe-0"
+            class="col-xl-3 col-md-6 d-inline-flex justify-content-start justify-content-md-center ps-4 ps-md-0 pe-0"
           >
             <div class="card custom-card-1 border-0 border-white">
               <div class="card-body p-0 m-0">
@@ -718,7 +719,7 @@
             </div>
           </div>
           <div
-            class="col-xl-3 col-md-6 d-inline-flex justify-content-start ps-4 mt-5 mt-md-0 pe-0"
+            class="col-xl-3 col-md-6 d-inline-flex justify-content-start justify-content-md-center ps-4 mt-5 mt-md-0 pe-0"
           >
             <div class="card custom-card-1 border-0 border-white">
               <div class="card-body p-0 m-0">
@@ -889,7 +890,7 @@
 
           <!-- EXTRA CARD START -->
           <div
-            class="col-xl-3 col-md-6 mt-xl-0 mt-5 mb-xl-0 mb-2 d-inline-flex justify-content-start ps-4 pe-0"
+            class="col-xl-3 col-md-6 mt-xl-0 mt-5 mb-xl-0 mb-2 d-inline-flex justify-content-md-center justify-content-start ps-4 ps-md-0 pe-0"
           >
             <div
               class="card custom-card-2 border-0 border-white pt-5 pb-5 ps-4 pe-4 custom-price-card-shadow"
@@ -1062,7 +1063,7 @@
           <!-- EXTRA CARD END -->
 
           <div
-            class="col-xl-3 col-md-6 mt-xl-0 mt-5 d-inline-flex justify-content-start ps-4 pe-0"
+            class="col-xl-3 col-md-6 mt-xl-0 mt-5 d-inline-flex justify-content-md-center justify-content-start ps-4 ps-md-0 pe-0"
           >
             <div class="card custom-card-1 border-0 border-white">
               <div class="card-body p-0 m-0">
@@ -1244,9 +1245,9 @@
           </div>
         </div>
         <div
-          class="row gx-2 justify-content-center align-content-center align-items-cente custom-margin-top-3"
+          class="row gx-1 gx-lg-4 gx-xxl-2 justify-content-center align-content-center align-items-center custom-margin-top-3"
         >
-          <div class="col-lg-4 d-inline-flex justify-content-center pt-lg-0">
+          <div class="col-lg-4 d-inline-flex justify-content-md-end justify-content-center pt-lg-0">
             <div class="card feedback-card border-white">
               <div class="card-body d-inline-flex justify-content-center">
                 <div class="row justify-content-center align-items-center">
@@ -1272,9 +1273,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-4 d-inline-flex justify-content-center pt-lg-0 pt-4"
-          >
+          <div class="col-lg-4 d-inline-flex justify-content-center pt-lg-0 pt-4">
             <div
               class="card feedback-card border-white"
               style="width: 360px; height: 323px"
@@ -1302,9 +1301,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-4 d-inline-flex justify-content-center pt-lg-0 pt-4"
-          >
+          <div class="col-lg-4 d-inline-flex justify-content-md-start justify-content-center pt-lg-0 pt-4">
             <div
               class="card feedback-card border-white"
               style="width: 360px; height: 323px"

@@ -236,6 +236,7 @@
   font-size: 38px;
   line-height: 57px;
   font-weight: 600;
+  margin: 0;
 }
 
 
@@ -274,6 +275,11 @@
   text-align: left;
   color: #383838;
 }
+
+.accordion-button::after {
+  align-self: start;
+}
+
 
 .accordion-button:not(.collapsed) {
   color:#383838;
@@ -400,80 +406,31 @@
   top: 50px;
   left: 70%;
 }
-@media screen and (max-width: 768px) {
 
-  .floating-notification {
-    top: -35px !important; 
-    left: 0px !important;
-  }
 
-  .footer {
-    background-color: #0B0D17;
-    color: #D9DBE1;
-    height: 280px;
-    margin-top: 70px;
-  }
-  
-  .custom-brand-font{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #3E3E3E;
-    line-height: 33px;
-    font-size: 14px;
-    line-height: 21px;
-    width: 143px;
-    height: 42px;
-  }
-  
-  .custom-carousal-header-text{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .custom-scale{
-    scale: 0.74;
-  }
-
-  .carousel .carousel-indicators button {
-    border-radius: 5px;
-    width: 24.77px;
-    height: 2.93px;
-    border-top: 0px solid transparent;
-    border-bottom: 0px solid transparent;
-  }
-  
-
+.navbar-margin{
+  margin-left: 156px;
+  margin-right: 156px;
+  height: 106px;
 }
 
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 1550px) {
   .floating-notification {
     top: 50px;
-    left: 20%;
+    left: 50%;
   }
-  
-  .faq-img{
-    height: 364px;
-    width: 546px; 
-    border-radius: 5px;
-    object-fit: cover;
-  }
-
-  .faq-img{
-    height: 301px;
-    width: 324px; 
-    border-radius: 5px;
-  }
-
 }
 
-
 @media screen and (max-width: 1200px) {
+
+  .navbar-margin{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 106px;
+  }
+
+
+
   .floating-notification {
     top: 50px;
     left: 20%;
@@ -515,9 +472,87 @@
   
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 992px) {
+
   .floating-notification {
     top: 50px;
-    left: 50%;
+    left: 20%;
   }
+  
+  .faq-img{
+    height: 364px;
+    width: 546px; 
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .faq-img{
+    height: 301px;
+    width: 324px; 
+    border-radius: 5px;
+  }
+
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar-margin{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 106px;
+  }
+
+
+  .floating-notification {
+    top: -35px !important; 
+    left: 0px !important;
+  }
+
+  .footer {
+    background-color: #0B0D17;
+    color: #D9DBE1;
+    height: 280px;
+    margin-top: 70px;
+  }
+  
+  .custom-brand-font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #3E3E3E;
+    line-height: 33px;
+    font-size: 16px;
+    line-height: 21px;
+    width: 143px;
+    height: 42px;
+  }
+  
+  .custom-carousal-header-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .custom-scale{
+    scale: 0.74;
+  }
+
+  .carousel .carousel-indicators button {
+    border-radius: 5px;
+    width: 24.77px;
+    height: 2.93px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+  }
+  
+
+}
+
+
+
