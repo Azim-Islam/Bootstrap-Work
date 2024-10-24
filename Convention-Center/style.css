@@ -411,7 +411,7 @@
 .navbar-margin{
   margin-left: 156px;
   margin-right: 156px;
-  height: 106px;
+  /* min-height: 106px; */
 }
 
 @media screen and (max-width: 1550px) {
@@ -426,7 +426,7 @@
   .navbar-margin{
     margin-left: 60px;
     margin-right: 60px;
-    height: 106px;
+    /* min-height: 106px; */
   }
 
 
@@ -502,7 +502,7 @@
   .navbar-margin{
     margin-left: 20px;
     margin-right: 20px;
-    height: 106px;
+    /* min-height: 106px; */
   }
 
 
